@@ -187,6 +187,8 @@ alter table layoffs_2
 alter column date type date
 USING date::date;	
 
+
+--Exploaratory Analysis
 select * from layoffs_2;
 
 update layoffs_2 set total_laid_off = '0'
@@ -211,3 +213,75 @@ alter column funds_raised_millions type float
 USING funds_raised_millions::float;	
 
 select * from layoffs_2;
+
+select max(total_laid_off) from layoffs_2
+
+select max(total_laid_off), max(percentage_laid_off) from layoffs_2
+
+select * from layoffs_2
+where percentage_laid_off = 1
+order by funds_raised_millions DESC;
+
+select company, sum(total_laid_off)
+from layoffs_2
+group by company
+order by 2 DESC;
+
+select min(date), max(date)
+	from layoffs_2;
+
+select extract(year from date), sum(total_laid_off)
+from layoffs_2
+group by 1
+order by 1 DESC;
+
+select stage, sum(total_laid_off)
+from layoffs_2
+group by stage
+order by 2 DESC;
+
+select company, avg(percentage_laid_off)
+from layoffs_2
+group by company
+order by 2 DESC;
+
+--pull sum laid off by month and year
+select substring(concat(date_trunc('year', date)::date, '-', date_trunc('month', date)::date),12, 18) as date_test, sum(total_laid_off)
+from layoffs_2
+group by date_test
+order by 1 ASC;
+
+--create rolling sum 
+with Rolling_Total as 
+(select substring(concat(date_trunc('year', date)::date, '-', date_trunc('month', date)::date),12, 18) as date_test, sum(total_laid_off) as total_gone
+from layoffs_2
+group by date_test
+order by 1 ASC
+)
+select date_test, total_gone, sum(total_gone) over(order by date_test) as rolling_total
+from Rolling_Total;
+
+select company, sum(total_laid_off)
+from layoffs_2
+group by company
+order by 2 DESC;
+
+--group sum laid off by company and year
+select company, extract(year from date) as test, sum(total_laid_off)
+from layoffs_2
+group by company, test
+order by 3 DESC;
+
+--Ranking largest lay offs by company and year top 5 each year
+with Company_Year (company, years, total_laid_off) as 
+(select company, extract(year from date) as test, sum(total_laid_off)
+from layoffs_2
+group by company, test
+order by 3 DESC
+), Company_Year_Rank as 
+(select *, dense_rank() over (partition by years order by total_laid_off DESC) as rank_years
+	from Company_Year
+)
+select * from Company_Year_Rank	
+	where rank_years <= 5
+;
