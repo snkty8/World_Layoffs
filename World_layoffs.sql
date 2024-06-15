@@ -23,7 +23,6 @@ as table layoffs;
 --Remove duplicates
 select * from layoffs;
 
-
 select *, 
 	row_number() over(
 	partition by company, industry, total_laid_off, percentage_laid_off, date) as row_num
@@ -42,7 +41,7 @@ where row_num > 1;
 --Checking duplicate data and finding this not a duplicate and need to partition over all colums in query above
 select * from layoffs where company = 'Oda';
 
--- Take 2 on finding duplicates
+-- Take 2: Finding duplicates
 with duplicate_cte as 
 (select *, 
 	row_number() over(
@@ -69,11 +68,11 @@ CREATE TABLE IF NOT EXISTS public.layoffs_2
     funds_raised_millions text COLLATE pg_catalog."default",
 	row_num int
 )
-
 TABLESPACE pg_default;
 
 select * from layoffs_2;
 
+--Insert same data into new table including new colums
 insert into layoffs_2
 select *, 
 	row_number() over(
@@ -133,7 +132,7 @@ USING lay_off_date::date;
 --Handle the Nulls
 select * from layoffs_2 where total_laid_off = 'NULL'
 
-
+--Industry values with Nulls or blanks
 select * from layoffs_2
 	where industry is null 
 	or industry = 'NULL'
@@ -142,6 +141,7 @@ select * from layoffs_2
 select * from layoffs_2
 where company like 'Bally%'
 
+--Find same company values with that have Nulls values 	
 select * from layoffs_2 t1
 join layoffs_2 t2
 on t1.company = t2.company 
@@ -158,7 +158,7 @@ set t1.industry = t2.industry
 where t1.industry is null 
 and t2.industry is not null
 
-	
+--Show rows that have nulls and blanks for total_laid_off and percentage_laid_off	
 select * from layoffs_2
 where (total_laid_off is null or total_laid_off = 'NULL' or total_laid_off = '')
 and (percentage_laid_off is null or percentage_laid_off = 'NULL' or percentage_laid_off = '')
@@ -170,12 +170,15 @@ and
 
 select * from layoffs_2 where lay_off_date is null or lay_off_date = 'NULL'
 
+--single row with lay_off_date as NULL
 delete from layoffs_2
 	where lay_off_date is null or lay_off_date = 'NULL'
 
+--remove row_num colunm 
 alter table layoffs_2
 drop column row_num;
 
+--change lay_off_date to date data type
 alter table layoffs_2 
 alter column lay_off_date type date
 USING lay_off_date::date;	
