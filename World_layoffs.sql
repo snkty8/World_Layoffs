@@ -188,3 +188,26 @@ alter column date type date
 USING date::date;	
 
 select * from layoffs_2;
+
+update layoffs_2 set total_laid_off = '0'
+where total_laid_off = 'NULL'
+
+update layoffs_2 set percentage_laid_off = '0'
+where percentage_laid_off = 'NULL'
+
+update layoffs_2 set funds_raised_millions = '0'
+where funds_raised_millions = 'NULL'
+
+alter table layoffs_2 
+alter column total_laid_off type int
+USING total_laid_off::int;	
+
+alter table layoffs_2 
+alter column percentage_laid_off type float
+USING percentage_laid_off::float;	
+
+alter table layoffs_2 
+alter column funds_raised_millions type float
+USING funds_raised_millions::float;	
+
+select * from layoffs_2;
