@@ -139,7 +139,11 @@ select * from layoffs_2
 	or industry = ''
 
 select * from layoffs_2
-where company like 'Bally%'
+where company like 'Juul%'
+
+update layoffs_2 set industry = 'Consumer'
+	where company = 'Juul'
+	and industry is null
 
 --Find same company values with that have Nulls values 	
 select * from layoffs_2 t1
@@ -158,6 +162,7 @@ set t1.industry = t2.industry
 where t1.industry is null 
 and t2.industry is not null
 
+
 --Show rows that have nulls and blanks for total_laid_off and percentage_laid_off	
 select * from layoffs_2
 where (total_laid_off is null or total_laid_off = 'NULL' or total_laid_off = '')
@@ -166,13 +171,12 @@ and (percentage_laid_off is null or percentage_laid_off = 'NULL' or percentage_l
 delete from layoffs_2
 where (total_laid_off is null or total_laid_off = 'NULL' or total_laid_off = '')
 and (percentage_laid_off is null or percentage_laid_off = 'NULL' or percentage_laid_off = '')
-and 	
 
-select * from layoffs_2 where lay_off_date is null or lay_off_date = 'NULL'
+select * from layoffs_2 where date is null or date = 'NULL'
 
 --single row with lay_off_date as NULL
 delete from layoffs_2
-	where lay_off_date is null or lay_off_date = 'NULL'
+	where date is null or date = 'NULL'
 
 --remove row_num colunm 
 alter table layoffs_2
@@ -180,7 +184,7 @@ drop column row_num;
 
 --change lay_off_date to date data type
 alter table layoffs_2 
-alter column lay_off_date type date
-USING lay_off_date::date;	
+alter column date type date
+USING date::date;	
 
 select * from layoffs_2;
