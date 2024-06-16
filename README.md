@@ -54,4 +54,5 @@ Since comptations can not be done, rows with NULL or blank values for both total
 ## Exploratory Analysis
 Ran into issues with running sum and count functions, noticed values were equal to NULL versus is null in the total_laid_off, percentage_laid_off columns, and funds_raised_millions. These colums also had the data type of text. The NULL values were then changed to 0, and the data type changed to integar for total_laid off and float for percentage_laid_off and funds_raised_millions since they contained decimals. 
 
+<img width="606" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/426d55d7-1f91-4c07-9b0b-a3baaa070bcb">
 
