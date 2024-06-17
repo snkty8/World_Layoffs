@@ -57,5 +57,16 @@ Ran into issues with running sum and count functions, noticed values were equal 
 
 <img width="606" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/426d55d7-1f91-4c07-9b0b-a3baaa070bcb">
 
+Ranking largest lay offs by company and year top 5 each year:
 
-<img width="253" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/a428fb49-fc50-4d6c-8bd0-4e321879f92b">
+2020
+
+<img width="275" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/40b1e3c4-3fa7-401f-bfa9-2e8a09d8218c">
+
+2021
+
+<img width="269" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/5b87d1b9-f898-454f-8836-ef83347f738d">
+
+2022
+
+<img width="271" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/a483a325-5966-4227-8fa2-9bd227c30ee0">
