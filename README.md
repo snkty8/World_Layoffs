@@ -1,4 +1,4 @@
-# World_Layoffs
+<img width="284" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/81c72797-bb72-4d26-b401-1c35c12f303e"><img width="284" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/fda6d328-2865-421d-9207-74cd13275a3b"><img width="284" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/c827a0fd-da0a-4f82-a537-864109b38a1a"># World_Layoffs
 
 Dataset contains layoff data from around the world from 2020 to the first few months of 2023. PgAdmin used to analyze. 
 
@@ -57,6 +57,7 @@ Ran into issues with running sum and count functions, noticed values were equal 
 
 <img width="606" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/426d55d7-1f91-4c07-9b0b-a3baaa070bcb">
 
+
 Ranking largest lay offs by company and year top 5 each year:
 
 2020
@@ -70,3 +71,19 @@ Ranking largest lay offs by company and year top 5 each year:
 2022
 
 <img width="271" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/a483a325-5966-4227-8fa2-9bd227c30ee0">
+
+
+-- Ranking layoffs per industry per year top 5
+
+2020
+
+<img width="280" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/3d4a8281-0305-4452-b1bb-119a4cb89956">
+
+2021
+
+<img width="281" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/f1add84e-2ae5-4a27-8572-41c913516069">
+
+2022
+
+<img width="284" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/6dcf66da-b8d5-4aa2-b40e-b254f73ad1ae">
+
