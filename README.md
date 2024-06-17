@@ -87,3 +87,17 @@ Ranking largest lay offs by company and year top 5 each year:
 
 <img width="284" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/6dcf66da-b8d5-4aa2-b40e-b254f73ad1ae">
 
+
+--Rank layoffs by country per year top 5
+
+2020
+
+<img width="279" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/8aa3c278-5b48-498b-8050-4ad18c6db504">
+
+2021
+
+<img width="278" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/3acb8f9e-c0fa-46a5-9d96-8cfd83d2c440">
+
+2022
+
+<img width="279" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/7a536b8b-94af-405c-b672-ed1e70d6701e">
