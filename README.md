@@ -1,4 +1,4 @@
-<img width="284" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/81c72797-bb72-4d26-b401-1c35c12f303e"><img width="284" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/fda6d328-2865-421d-9207-74cd13275a3b"><img width="284" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/c827a0fd-da0a-4f82-a537-864109b38a1a"># World_Layoffs
+# World_Layoffs
 
 Dataset contains layoff data from around the world from 2020 to the first few months of 2023. PgAdmin used to analyze. 
 
