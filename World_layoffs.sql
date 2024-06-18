@@ -103,7 +103,7 @@ where industry like 'Crypto%';
 select distinct country from layoffs_2
 order by 1;
 
-select * from layoffs_2
+select distinct country from layoffs_2
 where country like 'United States%'
 order by 1;
 
@@ -122,7 +122,7 @@ select date, TO_DATE(date, 'MM/DD/YYYY') from layoffs_2
 
 update layoffs_2 set date = TO_DATE(date, 'MM/DD/YYYY') where date <> 'NULL'
 
-select * from layoffs_2;
+select date from layoffs_2;
 
 --Can't alert due to NULL 
 alter table layoffs_2 
@@ -139,7 +139,7 @@ select * from layoffs_2
 	or industry = ''
 
 select * from layoffs_2
-where company like 'Juul%'
+where company in ('Juul', 'Airbnb', 'Carvana')
 
 update layoffs_2 set industry = 'Consumer'
 	where company = 'Juul'
@@ -285,3 +285,48 @@ order by 3 DESC
 select * from Company_Year_Rank	
 	where rank_years <= 5
 ;
+
+--Ranking layoffs per industry per year top 5
+with Industry_Year (industry, years, total_laid_off) as 
+(select industry, extract(year from date) as test, sum(total_laid_off)
+from layoffs_2
+group by industry, test
+order by 3 DESC
+), Industry_Year_Rank as 
+(select *, dense_rank() over (partition by years order by total_laid_off DESC) as rank_years
+	from Industry_Year
+)
+select * from Industry_Year_Rank	
+	where rank_years <= 5
+;
+
+--Rank layoffs by country per year top 5
+with Country_Year (country, years, total_laid_off) as 
+(select country, extract(year from date) as test, sum(total_laid_off)
+from layoffs_2
+group by country, test
+order by 3 DESC
+), Country_Year_Rank as 
+(select *, dense_rank() over (partition by years order by total_laid_off DESC) as rank_years
+	from Country_Year
+)
+select * from Country_Year_Rank	
+	where rank_years <= 5
+;
+
+
+--What industries had most the companies completely shut down each year?
+select industry, country, count(company) as count_closed_companies, extract(year from date) as each_year
+from layoffs_2
+where percentage_laid_off = '1'
+group by industry, extract(year from date), country
+order by each_year DESC;
+
+--How many companies closed in each country?
+with Closed_Companies (industry, percentage_laid_off) as 
+	(select country, count(company) as number_closed_companies, extract(year from date) as each_year
+from layoffs_2
+where percentage_laid_off = '1'
+group by extract(year from date), country
+order by each_year DESC, country DESC, number_closed_companies DESC)
+select * from Closed_Companies;
