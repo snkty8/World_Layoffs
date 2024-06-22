@@ -162,4 +162,26 @@ Ran into issues with running sum and count functions, noticed values were equal 
 
 ## Conclusion
 
+From queries ran in PGAdmin and visuals created using Tableau, the United States had the most layoffs by far across all years. Ran query to determine the industries most affected in the US, this includes Consumer, Retail, and Transportation:
+
+![image](https://github.com/snkty8/World_Layoffs/assets/78936833/6f4b914a-2cea-41c6-9134-5b70fd1d5932)
+
+Also drilled down the most layoffs per Company in the US, this includes Google, Meta, and Amazon:
+
+![image](https://github.com/snkty8/World_Layoffs/assets/78936833/b4742460-3c6a-4fac-aef2-ef958b49639d)
+
+Drilling down even further the location most affected by layoffs in the United States is in the SF Bay Area:
+
+![image](https://github.com/snkty8/World_Layoffs/assets/78936833/f8ab4656-febb-42d9-80a2-c5344b032559)
+
+With the most layoffs showing for Google at 12,000: 
+
+![image](https://github.com/snkty8/World_Layoffs/assets/78936833/683ad07f-33b7-4e9b-86c1-98fae012458f) 
+
+According to the data, the was a 6% company lay off in Jan 2023: 
+
+![image](https://github.com/snkty8/World_Layoffs/assets/78936833/cf7a3089-3786-45d6-8d6e-854ef7e5728f)
+
+
+
 
