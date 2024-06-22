@@ -173,8 +173,8 @@ Ran into issues with running sum and count functions, noticed values were equal 
 <img width="631" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/e92b8ec3-99d9-4bc0-837b-d283939dfa1a">
 
 #### Map View 
-<img width="293" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/25d0906b-e798-4ecc-95ae-71d99e996c5c">
+##### Total Layoffs per Country from 2020 to 2022
 
-<img width="795" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/f98a3daf-b3b1-4972-9289-556f926da803">
+<img width="712" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/6ca3aa47-8eb5-406a-bbc8-94532a68c463">
 
 
