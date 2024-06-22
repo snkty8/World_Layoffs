@@ -148,15 +148,15 @@ Ran into issues with running sum and count functions, noticed values were equal 
 
 2020
 
-<img width="313" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/70738a74-6d07-45d7-b63f-02542bf3028b">
+<img width="534" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/1e8c9b65-bab1-4be9-b96d-b59d8a5b5341">
 
 2021
 
-<img width="319" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/23166edd-8ba2-4951-9d30-7973a517c3fe">
+<img width="546" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/a5e5b3cb-e8ed-416e-8e73-ff796387fc18">
 
 2022
 
-<img width="953" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/22cd8342-7b95-471b-9956-1d6b936d05e1">
+<img width="537" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/f15a3a30-815b-42ae-a21d-5c5b7504652b">
 
 #### Total Laid off in Each Industry for top 3 countries 
 
