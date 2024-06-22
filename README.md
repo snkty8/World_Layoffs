@@ -53,27 +53,46 @@ Since comptations can not be done, rows with NULL or blank values for both total
 
 
 ## Exploratory Analysis
-Ran into issues with running sum and count functions, noticed values were equal to NULL versus is null in the total_laid_off, percentage_laid_off columns, and funds_raised_millions. These colums also had the data type of text. The NULL values were then changed to 0, and the data type changed to integar for total_laid off and float for percentage_laid_off and funds_raised_millions since they contained decimals. 
+Ran into issues with running sum and count functions, noticed values were equal to NULL versus is null in the total_laid_off, percentage_laid_off columns, and funds_raised_millions. These columns also had the data type of text. The NULL values were then changed to 0, and the data type changed to integer for total_laid off and float for percentage_laid_off and funds_raised_millions since they contained decimals.
 
 <img width="606" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/426d55d7-1f91-4c07-9b0b-a3baaa070bcb">
 
-
-Ranking largest lay offs by company and year top 5 each year:
-
-2020
-
-<img width="275" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/40b1e3c4-3fa7-401f-bfa9-2e8a09d8218c">
-
-2021
+<details>
+       <summary>Ranking the Top 5 Companies with the Largest Number of Layoffs Each Year</summary>
+  
+  2020
+  
+  <img width="275" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/40b1e3c4-3fa7-401f-bfa9-2e8a09d8218c">
+  
+  2021
 
 <img width="269" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/5b87d1b9-f898-454f-8836-ef83347f738d">
 
-2022
+  2022
 
 <img width="271" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/a483a325-5966-4227-8fa2-9bd227c30ee0">
+      
+</details>
+
+  <details>
+       <summary>Ranking the Top 5 Industries with the Largest Number of Layoffs Each Year</summary>
+
+2020    
+
+<img width="280" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/3d4a8281-0305-4452-b1bb-119a4cb89956">
+
+2021
+
+<img width="281" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/f1add84e-2ae5-4a27-8572-41c913516069">
+
+2022
+
+<img width="284" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/6dcf66da-b8d5-4aa2-b40e-b254f73ad1ae">
+ </details>
 
 
--- Ranking layoffs per industry per year top 5
+ <details>
+       <summary>Ranking the Top 5 Industries with the Largest Number of Layoffs Each Year</summary>
 
 2020
 
@@ -87,9 +106,12 @@ Ranking largest lay offs by company and year top 5 each year:
 
 <img width="284" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/6dcf66da-b8d5-4aa2-b40e-b254f73ad1ae">
 
+  </details>
 
---Rank layoffs by country per year top 5
 
+ <details>
+       <summary>Ranking the Top 5 Countries with the Largest Number of Layoffs Each Year</summary>
+   
 2020
 
 <img width="279" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/8aa3c278-5b48-498b-8050-4ad18c6db504">
@@ -101,6 +123,10 @@ Ranking largest lay offs by company and year top 5 each year:
 2022
 
 <img width="279" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/7a536b8b-94af-405c-b672-ed1e70d6701e">
+    </details>
+
+
+
 
 ### Visuals 
 #### Total Laid Off by Country
