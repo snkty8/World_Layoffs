@@ -190,10 +190,10 @@ Sundar Pichai. CEO of Google and the Alphabet also describes how difficult this 
 
 “While this transition won’t be easy, we’re going to support employees as they look for their next opportunity.
 In the US:
-•	We’ll pay employees during the full notification period (minimum 60 days).
-•	We’ll also offer a severance package starting at 16 weeks salary plus two weeks for every additional year at Google, and accelerate at least 16 weeks of GSU vesting.
-•	We’ll pay 2022 bonuses and remaining vacation time.
-•	We’ll be offering 6 months of healthcare, job placement services, and immigration support for those affected.
-•	Outside the US, we’ll support employees in line with local practices.”
+-	We’ll pay employees during the full notification period (minimum 60 days).
+-	We’ll also offer a severance package starting at 16 weeks salary plus two weeks for every additional year at Google, and accelerate at least 16 weeks of GSU vesting.
+-	We’ll pay 2022 bonuses and remaining vacation time.
+-	We’ll be offering 6 months of healthcare, job placement services, and immigration support for those affected.
+-	Outside the US, we’ll support employees in line with local practices.”
 
 
