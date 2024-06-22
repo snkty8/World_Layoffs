@@ -74,23 +74,6 @@ Ran into issues with running sum and count functions, noticed values were equal 
       
 </details>
 
-  <details>
-       <summary>Ranking the Top 5 Industries with the Largest Number of Layoffs Each Year</summary>
-
-2020    
-
-<img width="280" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/3d4a8281-0305-4452-b1bb-119a4cb89956">
-
-2021
-
-<img width="281" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/f1add84e-2ae5-4a27-8572-41c913516069">
-
-2022
-
-<img width="284" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/6dcf66da-b8d5-4aa2-b40e-b254f73ad1ae">
- </details>
-
-
  <details>
        <summary>Ranking the Top 5 Industries with the Largest Number of Layoffs Each Year</summary>
 
