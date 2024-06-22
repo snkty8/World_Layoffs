@@ -177,18 +177,6 @@ Ran into issues with running sum and count functions, noticed values were equal 
 
 <img width="631" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/e92b8ec3-99d9-4bc0-837b-d283939dfa1a">
 
-How many companies completely closed in each country per year? 
-
-2020
-
-<img width="271" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/d3c8270c-deda-48f3-9bff-06a7fd5a23e1">
-
-2021
-
-<img width="272" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/b537ccc5-0191-44a6-b871-e75a51bbb883">
-
-2022
-
-<img width="274" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/5cba7c5b-b024-4f23-935b-b7176f244d57">
+## Conclusion
 
 
