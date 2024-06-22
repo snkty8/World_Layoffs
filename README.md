@@ -129,6 +129,21 @@ Ran into issues with running sum and count functions, noticed values were equal 
 
 
 ### Visuals 
+#### Top Companies with the Largest Number of Layoffs Each Year
+
+2020
+
+<img width="636" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/adfd23ad-00ab-4dda-b054-2552a3a90643">
+
+2021
+
+<img width="641" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/a6ff6f2f-5072-4cae-9382-cac276e3c92d">
+
+2022
+
+<img width="639" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/920e7825-abb8-41f3-9df4-96859379456d">
+
+
 #### Total Laid Off by Country
 
 2020
