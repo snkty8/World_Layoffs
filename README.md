@@ -133,3 +133,6 @@ Ranking largest lay offs by company and year top 5 each year:
 
 #### Map View 
 <img width="293" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/25d0906b-e798-4ecc-95ae-71d99e996c5c">
+
+<img width="795" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/9ffd32a5-3d24-4c72-a268-b9929f61804f">
+
