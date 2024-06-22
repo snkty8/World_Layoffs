@@ -162,15 +162,15 @@ Ran into issues with running sum and count functions, noticed values were equal 
 
 2020
 
-<img width="318" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/a26a5058-4e70-415a-b865-ca3cfae18ada">
+<img width="632" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/fc26ac7c-281c-4d8b-8b06-efa1909110dd">
 
 2021
 
-<img width="326" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/f5e7d58b-de16-43a2-bdb7-ecbcc02e66f1">
+<img width="636" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/2d0e6ebe-ed95-4bd1-89a7-c429bb215847">
 
 2022
 
-<img width="319" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/4611c019-264d-4b8e-899a-da0dd7a62bd0">
+<img width="631" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/e92b8ec3-99d9-4bc0-837b-d283939dfa1a">
 
 #### Map View 
 <img width="293" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/25d0906b-e798-4ecc-95ae-71d99e996c5c">
