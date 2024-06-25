@@ -182,7 +182,7 @@ According to the data, the was a 6% company lay off in Jan 2023:
 
 ![image](https://github.com/snkty8/World_Layoffs/assets/78936833/cf7a3089-3786-45d6-8d6e-854ef7e5728f)
 
-When initially starting this analysis, my mind went to Covid as being the root cause of most of the layoffs around the world. In the Google’s case, it seems to be restricting of the company according the reporters. From [The Register](https://www.theregister.com/2024/01/11/google_rings_in_2024_with/): 
+When initially starting this analysis, my mind went to Covid as being the root cause of most of the layoffs around the world. Although Amazon had the most layoffs over all, Google had the most layoffs at one time. In the Google’s case, it seems to be restricting of the company according the reporters. From [The Register](https://www.theregister.com/2024/01/11/google_rings_in_2024_with/): 
 
 “Google laid off tens of thousands of people last year, with a notable chop January when it clipped 12,000 employees. Cuts continued in several rounds throughout the year, which Google told us had to do with adjusting the structure of various teams to prioritize their most important work - albeit with fewer employees. “ 
 
