@@ -197,3 +197,6 @@ In the US:
 -	Outside the US, we’ll support employees in line with local practices.”
 
 
+#Dashboard
+
+Also created a dashboard to show the top over all 5 countries with the highest layoffs per industry and company. 
