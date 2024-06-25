@@ -57,6 +57,10 @@ Ran into issues with running sum and count functions, noticed values were equal 
 
 <img width="606" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/426d55d7-1f91-4c07-9b0b-a3baaa070bcb">
 
+### Total Layoffs per Comany Across All Years
+
+<img width="208" alt="image" src="https://github.com/snkty8/World_Layoffs/assets/78936833/79a2ad6d-7a00-4761-9f76-79be8136b6c2">
+
 <details>
        <summary>Ranking the Top 5 Companies with the Largest Number of Layoffs Each Year</summary>
   
@@ -197,6 +201,6 @@ In the US:
 -	Outside the US, we’ll support employees in line with local practices.”
 
 
-#Dashboard
+# Dashboard
 
 Also created a dashboard to show the top over all 5 countries with the highest layoffs per industry and company. 
