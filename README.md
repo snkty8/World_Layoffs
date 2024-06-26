@@ -203,4 +203,26 @@ In the US:
 
 # Dashboard
 
-Also created a dashboard to show the top over all 5 countries with the highest layoffs per industry and company. 
+Created Tableau Dashboard to drill down to the Countries with the most layoffs from 2020-2023. Using those contries, created visuals to show the layoffs by industry and company. 
+#### Countries: 
+- United States
+- Netherlands
+- India
+- China
+
+#### Industires
+- Consumer
+- Transport
+- Travel
+- Contruction
+- Real Estate
+ 
+#### Company
+- Google
+- Meta
+- Uber
+- Booking.com
+- Bytedance
+- Katerra
+- Zillow
+ 
