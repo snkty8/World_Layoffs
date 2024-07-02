@@ -203,7 +203,7 @@ In the US:
 
 # Dashboard
 
-Created Tableau Dashboard to drill down to the Countries with the most layoffs from 2020-2023. Using those contries, created visuals to show the layoffs by industry and company. 
+Created [Tableau Dashboard](https://public.tableau.com/app/profile/sierra.knighten/viz/World_layoffs/VisualsDashboard?publish=yes) to drill down to the Countries with the most layoffs from 2020-2023. Using those contries, created visuals to show the layoffs by industry and company. 
 #### Countries: 
 - United States
 - Netherlands
